@@ -13,12 +13,13 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("Bot Owner 🥏", url="https://t.me/azeezmazin")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/mazi_efx")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/mazi_efx")],
     ]
 
     START = """
@@ -33,7 +34,10 @@ If you don't trust this bot,
 Still reading?
 You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
 
-By @StarkBots
+By @mazi_efx 
+owner @azeezmazin 
+
+
     """
 
     HELP = """
@@ -50,13 +54,14 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-Telegram Bot to generate Pyrogram and Telethon string session by @StarkBots
+Telegram Bot to generate Pyrogram and Telethon string session by @mazi_efx
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+github : [Click Here](https://github.com/azeezmazin1)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+owner : @azeezmazin 
 
-Language : [Python](https://www.python.org)
+channel : @mazi_efx
 
-Developer : @StarkProgrammer
-    """
+
+
+"""
